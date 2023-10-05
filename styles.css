@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+/* Style de base pour le header */
+header {
+    background-color: #fff; /* Couleur de fond du header */
+    color: #333; /* Couleur du texte dans le header */
+    padding: 20px; /* Espacement intérieur du header */
+    text-align: center; /* Alignement du texte au centre */
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+
+/* Style pour la barre de navigation */
+header nav ul {
+    list-style: none; /* Supprimer les puces de liste */
+    padding: 0; /* Supprimer le padding de la liste */
+}
+
+header nav ul li {
+    display: inline; /* Afficher les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Supprimer la décoration de texte des liens */
+    color: #333; /* Couleur du texte des liens */
+    font-weight: bold; /* Gras pour les liens */
+}
+
+/* Style pour les liens au survol */
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+div #first {
+    height: 450px;
+    background-color: beige;
+}
+
+footer {
+    background-color: beige;
+    height: 150px;
+}
+footer p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.blocHaut {
+  /*  border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black; */
+    width: 1000px;
+    margin: auto;
+}
+
+#titre {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
